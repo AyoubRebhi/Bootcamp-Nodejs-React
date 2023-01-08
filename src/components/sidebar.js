@@ -98,18 +98,10 @@ const Sidebar = () => {
                         <Col span={20}>
                             <h2 style={{fontWeight:"bold"}}>Location</h2>
                             <div hidden={dropdowncheck2 == false}>
-                                <Row> <input type={"checkbox"}/> <h4 style={{marginLeft: "20px", marginTop: "7px"}}>Last
-                                    1
-                                    day</h4></Row>
-                                <Row> <input type={"checkbox"}/> <h4 style={{marginLeft: "20px", marginTop: "7px"}}>Last
-                                    3
-                                    day</h4></Row>
-                                <Row> <input type={"checkbox"}/> <h4 style={{marginLeft: "20px", marginTop: "7px"}}>Last
-                                    7
-                                    day</h4></Row>
-                                <Row> <input type={"checkbox"}/> <h4 style={{marginLeft: "20px", marginTop: "7px"}}>Last
-                                    15
-                                    day</h4></Row>
+                                <Row> <input type={"checkbox"}/> <h4 style={{marginLeft: "20px", marginTop: "7px"}}>Al-Monastir</h4></Row>
+                                <Row> <input type={"checkbox"}/> <h4 style={{marginLeft: "20px", marginTop: "7px"}}>Sousse</h4></Row>
+                                <Row> <input type={"checkbox"}/> <h4 style={{marginLeft: "20px", marginTop: "7px"}}>Sfax</h4></Row>
+                                <Row> <input type={"checkbox"}/> <h4 style={{marginLeft: "20px", marginTop: "7px"}}>Tunis</h4></Row>
                             </div>
                         </Col>
                         <Col>
