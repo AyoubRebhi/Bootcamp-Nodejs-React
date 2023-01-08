@@ -1,19 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Charachter from "./components/charachter";
+import Index from "./components/index";
 import { Provider } from 'react-redux';
-import store from './store';
 
 const App = () => {
 
   return (
-    <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<Charachter />} />
+          <Route path="/" element={<Index />} />
         </Routes>
       </Router>
-    </Provider>
   );
 };
 
